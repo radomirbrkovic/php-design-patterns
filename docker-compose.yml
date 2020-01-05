@@ -1,0 +1,11 @@
+version: "3"
+services:
+  php_design_patterns:
+    container_name: php_design_patterns
+    build:
+      context: .
+      dockerfile: container-build/web/Dockerfile
+    ports:
+    - "8080:80"
+    volumes:
+    - .:/var/www/public
