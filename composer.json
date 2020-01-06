@@ -1,0 +1,15 @@
+{
+    "name": "php-design-patterns",
+    "authors": [
+        {
+            "name": "Radomir Brkovic",
+            "email": "brkovic.radomir@gamil.com"
+        }
+    ],
+    "psr-4": {
+        "Adapter\\": "Adapter"
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
