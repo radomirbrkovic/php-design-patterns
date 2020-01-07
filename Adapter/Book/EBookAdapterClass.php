@@ -7,6 +7,11 @@ namespace Adapter\Book;
 use Adapter\Book\Interfaces\BookInterface;
 use Adapter\Kindle\Interfaces\KindleInterface;
 
+/**
+ * Class EBookAdapterClass
+ * @package Adapter\Book
+ * @author Radomir Brkovic <brkovic.radomir@gmail.com>
+ */
 class EBookAdapterClass implements BookInterface
 {
     /** @var KindleInterface  */
