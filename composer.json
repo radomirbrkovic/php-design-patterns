@@ -10,7 +10,8 @@
     "psr-4": {
       "Adapter\\": "Adapter/",
       "Bridge\\": "Bridge/",
-      "Decorator\\": "Decorator/"
+      "Decorator\\": "Decorator/",
+      "Facade\\": "Facade/"
     }
   },
   "require": {

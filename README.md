@@ -9,4 +9,6 @@ This solution is develop in docker environment so everything what you need is in
 ## Design patterns
 
 - [Adapter](https://github.com/radomirbrkovic/php-design-patterns/tree/master/Adapter)
+- [Bridge](https://github.com/radomirbrkovic/php-design-patterns/tree/master/Bridge)
 - [Decorator](https://github.com/radomirbrkovic/php-design-patterns/tree/master/Decorator)
+- [Facade](https://github.com/radomirbrkovic/php-design-patterns/tree/master/Facade)
