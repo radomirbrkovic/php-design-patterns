@@ -11,7 +11,8 @@
       "Adapter\\": "Adapter/",
       "Bridge\\": "Bridge/",
       "Decorator\\": "Decorator/",
-      "Facade\\": "Facade/"
+      "Facade\\": "Facade/",
+      "Strategy\\": "Strategy/"
     }
   },
   "require": {
