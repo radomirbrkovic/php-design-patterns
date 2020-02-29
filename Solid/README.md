@@ -7,7 +7,7 @@ Many nowadays popular PHP frameworks implement **S.O.L.I.D** design principle in
 
 ### S.O.L.I.D stands for:
 
-1. **S** - [Single-responsibility principle](./SingleRensponsibility) 
+1. **S** - [Single-responsibility principle](./SingleResponsibility) 
 2. **O** - Open-closed principe 
 3. **L** - Liskov substitution principle
 4. **I** - Interface segregation principle
