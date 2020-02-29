@@ -1,22 +1,22 @@
 <?php
 
 
-namespace Solid\SingleResponsibility;
+namespace Solid;
 
 
 use PHPUnit\Framework\TestCase;
-use Solid\SingleResponsibility\Implementation\AreaClass;
-use Solid\SingleResponsibility\Implementation\CircleClass;
-use Solid\SingleResponsibility\Implementation\SquareClass;
-use Solid\SingleResponsibility\Output\JsonOutputClass;
-use Solid\SingleResponsibility\Output\XmlOutputClass;
+use Solid\Implementation\AreaClass;
+use Solid\Implementation\CircleClass;
+use Solid\Implementation\SquareClass;
+use Solid\Output\JsonOutputClass;
+use Solid\Output\XmlOutputClass;
 
 /**
- * Class SingleResponsibilityTest
- * @package Solid\SingleResponsibility
+ * Class SOLIDTest
+ * @package Solid
  * @author Radomir Brkovic <brkovic.radomir@gmail.com>
  */
-class SingleResponsibilityTest extends TestCase
+class SOLIDTest extends TestCase
 {
 
     /**
@@ -24,11 +24,11 @@ class SingleResponsibilityTest extends TestCase
      */
     private function getArea(): AreaClass
     {
-        return new AreaClass([
-            new CircleClass(5),
-            new SquareClass(3),
-            new SquareClass(10.1)
-        ]);
+        $area = new AreaClass();
+        $area->addSharp(new CircleClass(5));
+        $area->addSharp(new SquareClass(3));
+        $area->addSharp(new SquareClass(10.1));
+        return  $area;
     }
 
     public function testJsonOutput()

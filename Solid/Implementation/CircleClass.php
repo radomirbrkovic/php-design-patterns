@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Solid\SingleResponsibility\Implementation;
+namespace Solid\Implementation;
 
 
-use Solid\SingleResponsibility\Implementation\Interfaces\SharpInterface;
+use Solid\Implementation\Interfaces\SharpInterface;
 
 /**
  * Class CircleClass
- * @package Solid\SingleResponsibility\Implementation
+ * @package Solid\Implementation
  * @author Radomir Brkovic <brkovic.radomir@gmail.com>
  */
 class CircleClass implements SharpInterface

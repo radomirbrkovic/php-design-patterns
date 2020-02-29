@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Solid\SingleResponsibility\Output;
+namespace Solid\Output;
 
 
-use Solid\SingleResponsibility\Implementation\AreaClass;
-use Solid\SingleResponsibility\Output\Interfaces\OutputInterface;
+use Solid\Implementation\AreaClass;
+use Solid\Output\Interfaces\OutputInterface;
 
 /**
  * Class XmlOutputClass
- * @package Solid\SingleResponsibility\Output
+ * @package Solid\Output
  * @author Radomir Brkovic <brkovic.radomir@gmail.com>
  */
 class XmlOutputClass implements OutputInterface

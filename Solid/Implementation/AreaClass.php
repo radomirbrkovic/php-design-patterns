@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Solid\SingleResponsibility\Implementation;
+namespace Solid\Implementation;
 
 
-use Solid\SingleResponsibility\Implementation\Interfaces\SharpInterface;
+use Solid\Implementation\Interfaces\SharpInterface;
 
 /**
  * Class AreaClass
- * @package Solid\SingleResponsibility\Implementation
+ * @package Solid\Implementation
  * @author Radomir Brkovic <brkovic.radomir@gmail.com>
  */
 class AreaClass
@@ -19,15 +19,12 @@ class AreaClass
     private $sharps = [];
 
     /**
-     * AreaClass constructor.
-     * @param SharpInterface[] $sharps
+     * @param SharpInterface $sharp
      */
-    public function __construct(array  $sharps)
+    public function addSharp(SharpInterface $sharp): void
     {
-        $this->sharps = $sharps;
+        $this->sharps[] = $sharp;
     }
-
-
     /**
      * @return float
      */

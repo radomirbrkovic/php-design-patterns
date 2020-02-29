@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Solid\SingleResponsibility\Implementation\Interfaces;
+namespace Solid\Implementation\Interfaces;
 
 /**
  * Interface SharpInterface
- * @package Solid\SingleResponsibility\Implementation\Interfaces
+ * @package Solid\Implementation\Interfaces
  * @author Radomir Brkovic <brkovic.radomir@gmail.com>
  */
 interface SharpInterface
