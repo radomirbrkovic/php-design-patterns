@@ -13,5 +13,5 @@ Adapter design pattern, like real life adapters, allow us to use classes which a
 Most common use case of adapter design pattern is example of book and kindle.  In abstract level those objects are same and have same purpose, but their behavior is different. Our client wont worry how it works behind, everything what he want to do is open the book and read it. 
 
 To solve this task: 
- 1. We will make two classes BookClass and KindleClass which will implements BookInterface and KindleInterface with their distinctive behaviors.        
- 2. Then we will make EBookAdapterClass which will implements BookInterface but in methods will call KindleClass object.  
+ 1. We will make two classes `BookClass` and `KindleClass` which will implements `BookInterface` and `KindleInterface` with their distinctive behaviors.        
+ 2. Then we will make `EBookAdapterClass` which will implements `BookInterface` but in methods will call `KindleClass` object.  

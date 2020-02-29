@@ -12,5 +12,5 @@ Decorator design pattern, as its name implies, we can change (decorate) and upgr
 One of the most common use cases is example with different type of output from same inputs. In practice purpose  we will use one associative array stored in InputDataClass and render it in JSON and XML format through RenderDecoratorInterface.
 
 To solve this task:  
-   1. We will create InputDataClass which accept array as parameter in constructor and has getters and setters for data property.
-   2. Create JsonRender and XMLRender classes which implement RenderDecoratorInterface whit renderData method.        
+   1. We will create `InputDataClass` which accept array as parameter in constructor and has getters and setters for data property.
+   2. Create `JsonRender` and `XMLRender` classes which implement `RenderDecoratorInterface` whit `renderData` method.        
