@@ -12,6 +12,7 @@
       "Bridge\\": "Bridge/",
       "Decorator\\": "Decorator/",
       "Facade\\": "Facade/",
+      "Solid\\": "Solid/",
       "Strategy\\": "Strategy/"
     }
   },
