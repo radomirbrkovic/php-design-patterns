@@ -47,7 +47,7 @@ class ValidationMiddlewareClass extends MiddlewareAbstractClass
             throw new PasswordValidationException();
         }
 
-        parent::check($email, $password);
+        return parent::check($email, $password);
     }
 
 
