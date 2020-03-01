@@ -18,12 +18,11 @@ Examples of mundane using chain of responsibility pattern are routers, middlewar
  
  In purpose of illustrating **chain of responsibility** pattern,  we create our validation middleware that concerns about authentication and authorization processes.
  
- 1. Create `MiddlewareInterface` with `next` and `check` public methods
+ 1. Create `MiddlewareInterface` with `setNext` and `check` public methods
  2. Create `MiddlewareAbstractClass` which will implement `MiddlewareInterface`
  3. Creating next classes that extends `MiddlewareAbstractClass`:
-    -  `UserExistsMiddlewareClass` that checks whether a user with given credentials exists, 
-    
-    -  `RoleChackMiddlewareClass` that checks whether a user associated with the request has sufficient permissions.
-    
-    - `ThrottlingMiddlewareCLass` that checks whether there are too many failed login requests
+    - `UserExistsMiddlewareClass` that checks whether a user with given credentials exists, 
+    - `ValidationMiddlewareClass` that check whether a given parameters have valid formats  
+    - `RoleMiddlewareClass` that checks whether a user associated with the request has sufficient permissions.
+    - `ThrottlingMiddlewareClass` that checks whether there are too many failed login requests
  4. Create `ServerClass` that is an application's class that acts as a real handler. The `ServerClass` uses the **CoR** pattern to execute a set of various authentication middleware before lunch some business logic associated with a request.    
