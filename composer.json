@@ -10,6 +10,7 @@
     "psr-4": {
       "Adapter\\": "Adapter/",
       "Bridge\\": "Bridge/",
+      "Builder\\": "Builder/",
       "ChainOfResponsibility\\": "ChainOfResponsibility/",
       "Decorator\\": "Decorator/",
       "Facade\\": "Facade/",
