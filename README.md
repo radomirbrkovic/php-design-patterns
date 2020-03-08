@@ -23,6 +23,7 @@ For running tests first please login on docker machine by `docker exec -it php_d
 
 - [Adapter](./Adapter)
 - [Bridge](./Bridge)
+- [Builder](./Builder)
 - [Chain of Responsibility](./ChainOfResponsibility)
 - [Decorator](./Decorator)
 - [Facade](./Facade)
