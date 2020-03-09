@@ -21,6 +21,7 @@ For running tests first please login on docker machine by `docker exec -it php_d
 
 ## Design patterns
 
+- [Abstract Factory](./AbstractFactory)
 - [Adapter](./Adapter)
 - [Bridge](./Bridge)
 - [Builder](./Builder)
