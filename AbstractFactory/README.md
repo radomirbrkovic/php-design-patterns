@@ -14,6 +14,6 @@ In abstract factory pattern an interface is responsible for creating a factory o
 
 The concrete factory must create the correct objects for it's context, insuring that all objects created by the concrete factory chosen to be able to work correctly for a given circumstances.
 
-In this example we have an abstract factory, `AbstractBookFactory` that specifies two classes, `AbstractPHPBook` and `AbstractMysqlBook`, which will need to be created by the concrete factory.
+In this example we have an abstract factory, `AbstractBookFactory` that specifies two classes, `AbstractPHPBook` and `AbstractMySQLBook`, which will need to be created by the concrete factory.
 
-The concrete class `OReallyBookFactory` extends `AbstractBookFatvory` and can create the `OReallyPHPBook` and `OReallyMySQLBook` classes which are the correct classes for the context of `OReally` 
+The concrete class `OReillyBookFactory` extends `AbstractBookFatvory` and can create the `OReillyPHPBook` and `OReillyMySQLBook` classes which are the correct classes for the context of `OReilly` 
