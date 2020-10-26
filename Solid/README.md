@@ -32,7 +32,7 @@ Many nowadays popular PHP frameworks implement **S.O.L.I.D** design principle in
 
 ## Dependency inversion
 
-**Definition** _Entities must depend on abstraction not on concretions. It states that the high level module must not depend on teh low level module, but they should depend on abstractions._
+**Definition** _Entities must depend on abstraction not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions._
  
  ## Example
  
